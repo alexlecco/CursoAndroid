@@ -50,8 +50,10 @@
         android:layout_height="wrap_content"
         android:text="Aceptar"
         android:id="@+id/btnAceptar"
-        android:layout_below="@+id/txtEmail"
-        android:layout_centerHorizontal="true"
-        android:onClick="tomarNombre"/>
+        android:onClick="tomarNombre"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/lblTextoSuperior"
+        android:layout_alignEnd="@+id/lblTextoSuperior"
+        android:layout_marginBottom="109dp" />
 
 </RelativeLayout>
